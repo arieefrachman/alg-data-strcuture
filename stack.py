@@ -21,11 +21,16 @@ class Stack(object):
 
 s = Stack()
 
-print(s.is_empty())
-
+# Add three elements
 s.push(1)
 s.push("two")
-
-print(s.is_empty())
+s.push(True)
 
 print(s.peek())
+print(s.size())
+
+# Remove 1 element from top
+s.pop()
+
+# Print all elements
+print(s.items)
